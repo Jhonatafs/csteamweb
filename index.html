@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/0c2f8cb29c.js" crossorigin="anonymous"></script>
+    <title>CS Team</title>
+</head>
+<body>
+    
+    <header>
+        <img class="brand" src="img/logo.png" alt="">
+        <i id="burguer" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+        <nav>
+            <ul>
+                <li><a href="#horarios">Horários</a></li>
+                <li><a href="#competidores">Competidores</a></li>
+                <li><a href="#local">Endereço</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="https://www.instagram.com/csteam.equipe/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu">
+        <ul>
+            <li><a href="#horarios">Horários</a></li>
+            <li><a href="#competidores">Competidores</a></li>
+            <li><a href="#local">Endereço</a></li>
+            <li><a href="www/download.html">Download</a></li>
+            <li><a href="https://www.instagram.com/csteam.equipe/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </div>
+
+    <section id="slider">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+
+            <div class="slide s1">
+                <img src="img/slide1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/slide2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/slide3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/slide4.jpg" alt="">
+            </div>
+
+            <div class="navbar">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+        </div>
+    </section>
+
+    <section id="horarios">
+        <h1>Atividades e Horários</h1>
+        <div class="grade">
+            <table>
+                <tr class="cabecalho">
+                    <th>Modalidade</th>
+                    <th>Dias</th>
+                    <th>Horário</th>
+                </tr>
+                <tr>
+                    <td>Musculação</td>
+                    <td>Seg. Ter. Qua. Qui. Sex. Sáb.</td>
+                    <td>06:00 as 21:00</td>
+                </tr>
+                <tr>
+                    <td>Muay Thai</td>
+                    <td>Seg. Qua. Sex.</td>
+                    <td>09:00 as 10:00</td>
+                </tr>
+                <tr>
+                    <td>Muay Thai</td>
+                    <td>Seg. Qua. Sex.</td>
+                    <td>11:00 as 12:00</td>
+                </tr>
+                <tr>
+                    <td>Muay Thai</td>
+                    <td>Seg. Qua. Sex.</td>
+                    <td>16:00 as 17:00</td>
+                </tr>
+                <tr>
+                    <td>Funcional</td>
+                    <td>Seg. Qua. Sex.</td>
+                    <td>17:00 as 18:00</td>
+                </tr>
+                <tr>
+                    <td>Box</td>
+                    <td>Seg. Qua. Sex.</td>
+                    <td>19:00 as 20:00</td>
+                </tr>
+                <tr>
+                    <td>Jiu Jitsu Ação *Gratuito até 14 anos</td>
+                    <td>Sáb.</td>
+                    <td>11:00 as 12:00</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="competidores">
+        <h1>Competidores</h1>
+        <div class="align">
+            <a href="https://www.instagram.com/carlucio.santossande/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/carlucio.jpg" alt="">
+                    <div class="texto">
+                        <h3>Carlucio Sande</h3>
+                        <p>Jiu Jitsu e MMA</p>
+                    </div>
+                </article>
+            </a>
+            <a href="https://www.instagram.com/crisbjjblackbelt/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/cristiano.jpg" alt="">
+                    <div class="texto">
+                        <h3>Cristiano "Sujeira"</h3>
+                        <p>Jiu Jitsu</p>
+                    </div>
+                </article>
+            </a>
+            <a href="https://www.instagram.com/brunocerkeirajj/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/bruno.jpg" alt="">
+                    <div class="texto">
+                        <h3>Bruno Cerkeira</h3>
+                        <p>Jiu Jitsu</p>
+                    </div>
+                </article>
+            </a>
+            <a href="https://www.instagram.com/charlesrocha_bjj/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/charles.jpg" alt="">
+                    <div class="texto">
+                        <h3>Charles "Chau"</h3>
+                        <p>Jiu Jitsu</p>
+                    </div>
+                </article>
+            </a>
+            <a href="https://www.instagram.com/gustavofloresbjj/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/gustavo.jpg" alt="">
+                    <div class="texto">
+                        <h3>Gustavo "Manchinha"</h3>
+                        <p>Jiu Jitsu</p>
+                    </div>
+            </article>
+            </a>
+                <a href="https://www.instagram.com/vitorfloresbjj/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/vitor.jpg" alt="">
+                    <div class="texto">
+                        <h3>Vitor Flores</h3>
+                        <p>Jiu Jitsu</p>
+                    </div>
+                </article>
+            </a>
+            <a href="https://www.instagram.com/walerson.martins/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/sula.jpg" alt="">
+                    <div class="texto">
+                        <h3>Sula</h3>
+                        <p>Jiu Jitsu</p>
+                    </div>
+                </article>
+            </a>
+            <a href="https://www.instagram.com/viniciusjacarejj/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/295514577_447096957277753_208897664202519564_n.jpg" alt="">
+                    <div class="texto">
+                        <h3>Vinicius "Jacaré"</h3>
+                        <p>MMA</p>
+                    </div>
+                </article>
+            </a>
+            <a href="https://www.instagram.com/_mateus.santtos/" target="_blank">
+                <article class="card">
+                    <img src="img/competidores/mateu.jpeg" alt="">
+                    <div class="texto">
+                        <h3>Mateus "Pardal"</h3>
+                        <p>MMA</p>
+                    </div>
+                </article>
+            </a>
+        </div>
+    </section>
+    <section id="local">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855.75653948875!2d-40.83982368551359!3d-14.894885989615574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7463b29bf77f4b9%3A0xd2ced239df29d5cd!2sCS%20Team%20Fitness!5e0!3m2!1spt-BR!2sbr!4v1677867631996!5m2!1spt-BR!2sbr"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>CS TEAM 2010 - 2023</p>
+    </footer>
+
+</body>
+</html>
